@@ -1,0 +1,126 @@
+/* Write your CSS here */
+.fruits-counter-container {
+  background-color: #ffd569;
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fruits-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  border-width: 0px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1110px;
+  width: 90%;
+}
+.image-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.mango-image {
+  height: 175px;
+  width: 200px;
+}
+.banana-image {
+  height: 175px;
+  width: 200px;
+}
+@media screen and (min-width: 768px) {
+  .fruits-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border-width: 0px;
+    padding-top: 96px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 96px;
+    width: 80%;
+  }
+  .heading {
+    font-family: roboto;
+    font-size: 45px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-family: roboto;
+    font-size: 45px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+  }
+  .count {
+    color: #ffd569;
+  }
+}
+@media screen and (min-width: 768px) {
+  .counter-control-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .image-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .mango-image {
+    height: 175px;
+    width: 200px;
+  }
+  .banana-image {
+    height: 175px;
+    width: 200px;
+  }
+  .button-container {
+    margin-top: 48px;
+  }
+  .button1 {
+    font-family: roboto;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #007bff;
+    border-radius: 6px;
+    border-width: 0px;
+    height: 40px;
+    width: 110px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .mango-image {
+    height: 275px;
+    width: 296px;
+  }
+  .banana-image {
+    height: 275px;
+    width: 296px;
+  }
+  .button-container {
+    text-align: center;
+    margin-top: 24px;
+  }
+}
+
+.button1 {
+  font-family: roboto;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #007bff;
+  border-radius: 6px;
+  border-width: 0px;
+  height: 40px;
+  width: 110px;
+}
